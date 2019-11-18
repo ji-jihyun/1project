@@ -33,9 +33,7 @@ STATICFILES_STORAGE = 'postproject.storages.StaticStorage'
 MEDIAFILES_LOCATION = 'media'
 STATICFILES_LOCATION = 'static'
 
-AWS_ACCESS_KEY_ID = 'AKIAYYJGGL2AMDD73E65'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'testjh-bucket'
+
 
 # Application definition
 
