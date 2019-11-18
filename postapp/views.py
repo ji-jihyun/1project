@@ -127,4 +127,3 @@ def search(request):
     if q:
         posts = posts.filter(Q(title__icontains=q) | Q(body__icontains=q)) 
         return render(request, 'search.html', {'posts' : posts,'q' : q})
-
